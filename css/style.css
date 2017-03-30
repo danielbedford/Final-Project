@@ -1,0 +1,193 @@
+/*================FONTS=====================*/
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Julius+Sans+One|Scope+One');
+
+header h4 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 32px;
+    border: solid;
+    margin: 0;
+}
+
+li>a {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Scope One', serif;
+}
+
+p {
+    font-family: 'Scope One', serif;
+}
+/*================UNIVERSALS================*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-background {
+    background-color: #292929;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline-block:hover {
+    background-color: #F5D000;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+.footer-background {
+    background-color: #292929;
+}
+
+button {
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+/*===================HEADER===================*/
+
+header {
+    padding: 30px 20px;
+    height: 5.75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+span h4 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+}
+
+li {
+    padding: 16px;
+}
+/*====================HERO===================*/
+
+#hero {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/industry.jpg");
+    background-size: cover;
+}
+
+#hero h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20%;
+    font-family: 'Cutive Mono', monospace;
+}
+
+/*==================MAIN================*/
+
+main {
+    height: 300px;
+    width: 49.5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+main>p {
+    margin-left: 24px;
+    padding: 8px;
+}
+
+main>h2 {
+    border: solid;
+    padding: 20px;
+    margin: 8px;
+    margin-left: 24px;
+}
+/*===============VIDEO====================*/
+
+#video-clip {
+    width: 45%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/*======================IMAGES==================*/
+#img-wrapper {
+    border-top: solid;
+    border-top-color: #000;
+    margin: 40px;
+    clear: both;
+}
+
+#img-3 {
+    background-image: url("../img/industry-3.jpg");
+}
+
+#img-4 {
+    background-image: url("../img/industry-4.jpg");
+}
+
+#img-5 {
+    background-image: url("../img/industry-5.jpg");
+}
+
+.img {
+    display: inline-block;
+    background-size: cover;
+    margin: 32px;
+    height: 200px;
+    width: 300px;
+}
+/*=================FOOTER=================*/
+
+footer {
+    height: 150px;
+    clear: both;
+}
+
+#social-media-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a .fa {
+    color: #fff;
+    padding: 20px;
+}
+
+a .fa:hover {
+    color: #F5D000;
+}
+
+#copyright {
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+/*=============ABOUT-HERO==================*/
+#about-hero {
+    background-image: url('../img/industry-2.jpg');
+    height: 600px;
+    background-size: cover;
+}
+
+/*==============COLUMNS===================*/
+
+.column h3 {
+    text-align: center;
+}
+
+.column>p {
+    text-align: justify;
+    padding: 8px;
+}
+
+.border-outline {
+    border: solid;
+    padding: 20px;
+    margin: 0;
+}
+
+button:hover {
+    background-color: #F5D000;
+}
